@@ -1,0 +1,71 @@
+.lead {
+	padding-top: 5%;
+	font-size: 1.25rem;
+	font-weight: 300;
+	font-family: 'Fira Coda', monospace;
+}
+
+.fonts {
+	font-color: white;
+}
+
+.skillheading {
+	padding-top: 5%;
+}
+
+#skills img {
+	height: 5rem;
+	width: 5rem;
+	padding: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.image {
+	width: 80px;
+	height: 80px;
+	vertical-align: middle;
+	border-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.skill {
+	text-align: center;
+	padding: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0.2rem 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.1);
+	margin: 0.5rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	margin-top: 30px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.skill:hover {
+	transform: scale(1.1, 1.1);
+	box-shadow: 0.5rem 1.25rem 1.75rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.skill p {
+	font-family: 'Fira Coda', monospace;
+	font-size: 0.8rem;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

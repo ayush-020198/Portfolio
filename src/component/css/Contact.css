@@ -1,0 +1,26 @@
+.footer {
+	border-top: 0.5px solid #a3a4a5;
+	margin-top: 5%;
+}
+
+.footer a {
+	display: block;
+	color: #ffffff;
+	padding: 18px 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.contactimage {
+	width: 50px;
+	height: 50px;
+}
+
+.contactimage:hover {
+	color: rgb(95, 114, 90);
+	border-bottom: 0.5px solid #a3a4a5;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}

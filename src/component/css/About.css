@@ -1,0 +1,10 @@
+.about {
+	padding-top: 5%;
+	font-size: 50px;
+	font-family: 'Fira Coda', monospace;
+}
+
+.aboutimage {
+	height: 150px;
+	width: 150px;
+}

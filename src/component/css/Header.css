@@ -1,0 +1,10 @@
+li a {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Fira Coda', monospace;
+}
+
+.brand {
+	height: 100px;
+	width: 100px;
+}
