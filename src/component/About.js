@@ -4,7 +4,7 @@ import Logo from './helpers/brand.png';
 import Transition from './Transition';
 function About() {
 	return (
-		<div className="about">
+		<div id="about">
 			<div className="row justify-content-md-center">
 				<div className="col-md-4">
 					<img className="aboutimage" src={Logo} alt="brand" />

@@ -18,7 +18,7 @@ const { Anime } = ReactAnime;
 
 function Skills() {
 	return (
-		<div>
+		<div id="skills">
 			<Anime
 				initial={[
 					{

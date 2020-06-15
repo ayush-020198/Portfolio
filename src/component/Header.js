@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from './helpers/brand.png';
-import About from './About';
-import Skills from './Skills';
-import Contact from './Contact';
 import UseNightMode from './nightMode/UseNightMode';
 import './css/Header.css';
 class Header extends Component {
@@ -10,9 +8,9 @@ class Header extends Component {
 		return (
 			<div>
 				<nav className="navbar navbar-expand-lg py-1 navbar-light head">
-					<a className="navbar-brand" href="#home">
+					<Link to="/" className="navbar-brand">
 						<img className="brand" src={Logo} alt="brand" />
-					</a>
+					</Link>
 					<button
 						className="navbar-toggler"
 						type="button"
@@ -35,11 +33,6 @@ class Header extends Component {
 								</a>
 							</li>
 							<li className="nav-item active">
-								<a className="nav-link" href="#projects">
-									<div className="direct">Projects </div>
-								</a>
-							</li>
-							<li className="nav-item active">
 								<a className="nav-link" href="#skills">
 									<div className="direct">Skills </div>{' '}
 								</a>
@@ -49,13 +42,15 @@ class Header extends Component {
 									<div className="direct">Contact </div>{' '}
 								</a>
 							</li>
+							<li className="nav-item active">
+								<Link to="/projects" className="nav-link">
+									<div className="direct">Projects </div>
+								</Link>
+							</li>
 							<UseNightMode />
 						</ul>
 					</div>
 				</nav>
-				<About id="about" />
-				<Skills id="skills" />
-				<Contact id="contact" />
 			</div>
 		);
 	}
