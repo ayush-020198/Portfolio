@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.614832bd.chunk.css",
+    "main.js": "/Portfolio/static/js/main.aecd9c64.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.aecd9c64.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.db605a1d.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.db605a1d.js.map",
+    "static/css/2.d811125f.chunk.css": "/Portfolio/static/css/2.d811125f.chunk.css",
+    "static/js/2.df604091.chunk.js": "/Portfolio/static/js/2.df604091.chunk.js",
+    "static/js/2.df604091.chunk.js.map": "/Portfolio/static/js/2.df604091.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.2b663aa4eea48e37812b92b949ab22b1.js": "/Portfolio/precache-manifest.2b663aa4eea48e37812b92b949ab22b1.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.d811125f.chunk.css.map": "/Portfolio/static/css/2.d811125f.chunk.css.map",
+    "static/css/main.614832bd.chunk.css.map": "/Portfolio/static/css/main.614832bd.chunk.css.map",
+    "static/js/2.df604091.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.df604091.chunk.js.LICENSE.txt",
+    "static/media/Slide.css": "/Portfolio/static/media/P5.eaa41330.jpg",
+    "static/media/bash.jpg": "/Portfolio/static/media/bash.2c93ed7e.jpg",
+    "static/media/bootstrap.jpg": "/Portfolio/static/media/bootstrap.6a0eabab.jpg",
+    "static/media/brand.png": "/Portfolio/static/media/brand.c6a7b96e.png",
+    "static/media/c.jpg": "/Portfolio/static/media/c.2a1d91be.jpg",
+    "static/media/docker.jpg": "/Portfolio/static/media/docker.d8e88fee.jpg",
+    "static/media/express.jpg": "/Portfolio/static/media/express.e9b0a5d3.jpg",
+    "static/media/firebase.jpg": "/Portfolio/static/media/firebase.c5f7beb9.jpg",
+    "static/media/git.png": "/Portfolio/static/media/git.70104e79.png",
+    "static/media/github.jpg": "/Portfolio/static/media/github.1f9fa821.jpg",
+    "static/media/instagram.png": "/Portfolio/static/media/instagram.eb6de4f0.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.97168189.png",
+    "static/media/mongo.jpg": "/Portfolio/static/media/mongo.85906adb.jpg",
+    "static/media/node.jpg": "/Portfolio/static/media/node.dbae1282.jpg",
+    "static/media/postgres.jpg": "/Portfolio/static/media/postgres.e213b60f.jpg",
+    "static/media/react.jpg": "/Portfolio/static/media/react.d7bab815.jpg",
+    "static/media/redux.jpg": "/Portfolio/static/media/redux.c8c2fb6b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db605a1d.js",
+    "static/css/2.d811125f.chunk.css",
+    "static/js/2.df604091.chunk.js",
+    "static/css/main.614832bd.chunk.css",
+    "static/js/main.aecd9c64.chunk.js"
+  ]
+}
