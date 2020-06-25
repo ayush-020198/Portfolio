@@ -2,7 +2,7 @@ import React from 'react';
 import './css/Contact.css';
 import Github from './helpers/git.png';
 import Linkedin from './helpers/linkedin.png';
-import Instagram from './helpers/instagram.png';
+import Twitter from './helpers/twitter.png';
 
 function Contact() {
 	return (
@@ -15,15 +15,15 @@ function Contact() {
 						alt="LinkedIn"
 					/>
 				</a>
-				<a href="https://www.instagram.com/ayush.00786/">
-					<img
-						className="contactimage"
-						src={Instagram}
-						alt="Instagram"
-					/>
-				</a>
 				<a href="https://github.com/ayush-020198">
 					<img className="contactimage" src={Github} alt="Github" />
+				</a>
+				<a href="https://twitter.com/ayush020198/">
+					<img
+						className="contactimage"
+						src={Twitter}
+						alt="Twitter"
+					/>
 				</a>
 			</nav>
 		</div>

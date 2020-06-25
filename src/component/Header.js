@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Logo from './helpers/brand.png';
 import UseNightMode from './nightMode/UseNightMode';
 import './css/Header.css';
@@ -7,10 +6,10 @@ class Header extends Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar navbar-expand-lg py-1 navbar-light head">
-					<Link to="/" className="navbar-brand">
+				<nav className="navbar navbar-expand-lg py-1 fixed-top navbar-light head">
+					<a href="/" className="navbar-brand">
 						<img className="brand" src={Logo} alt="brand" />
-					</Link>
+					</a>
 					<button
 						className="navbar-toggler"
 						type="button"

@@ -18,9 +18,9 @@ const properties = {
 
 const Slideshow = () => {
     return (
-      <div>
-        <h1 className="proj">Projects</h1>
-      <div className="slide-container" id="projects">
+      <div id="projects">
+        <h1 className="proj" >Projects</h1>
+      <div className="slide-container">
         <Zoom {...properties}>
           <div className="each-slide">
             <div className="P1">

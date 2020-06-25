@@ -13,7 +13,6 @@
     "react-animejs": "^0.5.4",
     "react-dark-mode-toggle": "0.0.5",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-slideshow-image": "^1.5.3",
     "react-text-transition": "^1.1.1",
