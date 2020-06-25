@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
-@font-face {
-	font-family: 'Mr Vampire';
-	src: url('fonts/MISTV___.TTF');
-}
+.Tilt{
+	background: linear-gradient(135deg, #6e8efb, #a777e3);}
 
 .slide-container {
 	width: 70%;
@@ -23,18 +20,12 @@
 
   }
   
-  .each-slide button span {
+  .each-slide .Tilt span {
 	padding: 5px;  
 	font-weight: 1000;
 	text-align: center;
 	transition-duration: 0.4s;
   }
-
-  button:hover{
-	color: red;  
-	background-color: white;
-  
-}
 
   .P1{
 	  background-image: url('images/P1.jpg');
@@ -46,24 +37,18 @@
 
   .link1{
 	  font-size: 25px;	
-	  font-family: 'Mr Vampire';
-	  text-transform: uppercase;
-	  border-radius: 10px;
+	  font-family: 'Fira Coda', monospace;
 	  position: relative;
 	  left: -400px;
 	  bottom: -250px;
-	  background: rgb(255, 208, 208);
   }
 
 .code1{
 	 font-size: 25px;	
-	  font-family: 'Mr Vampire';
-	  text-transform: uppercase;
-	  border-radius: 10px;
+	 font-family: 'Fira Coda', monospace;
 	  position: relative;
 	  left: 400px;
 	  bottom: -250px;
-	  background: rgb(146, 238, 177);
 }
 
 .P2{
@@ -78,22 +63,18 @@
 	  font-size: 25px;	
 	  font-family: 'Fira Coda', monospace;
 	  font-weight: 1000;
-	  border-radius: 10px;
 	  position: relative;
 	  left: -300px;
 	  bottom: -250px;
-	  background: rgb(203, 195, 245);
   }
 
 .code2{
 	 font-size: 25px;
 	 font-family: 'Fira Coda', monospace;
 	 font-weight: 1000;
-	 border-radius: 10px;
 	  position: relative;
 	  left: 300px;
 	  bottom: -250px;
-	  background: rgb(226, 209, 217);
 }
 
 .P3{
@@ -109,22 +90,18 @@
 	  font-size: 25px;	
 	  font-family: 'Fira Coda', monospace;
 	  font-weight: 1000;
-	  border-radius: 10px;
 	  position: relative;
 	  left: -300px;
 	  bottom: -250px;
-	  background: rgb(203, 195, 245);
   }
 
 .code3{
 	 font-size: 25px;
 	 font-family: 'Fira Coda', monospace;
 	 font-weight: 1000;
-	 border-radius: 10px;
 	  position: relative;
 	  left: 300px;
 	  bottom: -250px;
-	  background: rgb(226, 209, 217);
 }
 
 .P4{
@@ -132,7 +109,7 @@
 	border-radius: 77px;
 	width: 1100px;
 	position: relative;
-	left: 10px;
+	left: 17px;
 	
 }
 
@@ -140,20 +117,49 @@
 	  font-size: 25px;	
 	  font-family: 'Fira Coda', monospace;
 	  font-weight: 1000;
-	  border-radius: 10px;
 	  position: relative;
-	  left: -300px;
+	  left: -400px;
 	  bottom: -250px;
-	  background: rgb(203, 195, 245);
   }
 
 .code4{
 	 font-size: 25px;
 	 font-family: 'Fira Coda', monospace;
 	 font-weight: 1000;
-	 border-radius: 10px;
 	  position: relative;
-	  left: 300px;
+	  left: 400px;
 	  bottom: -250px;
-	  background: rgb(226, 209, 217);
+}
+
+.P5{
+	background-image: url('images/P5.jpg');
+	border-radius: 77px;
+	width: 1100px;
+	position: relative;
+	left: 17px;	
+}
+
+.proj{
+	padding: 2% 0 0 16.54%;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: 'Fira Coda', monospace;
+}
+
+  .link5{
+	  font-size: 25px;	
+	  font-family: 'Fira Coda', monospace;
+	  font-weight: 1000;
+	  position: relative;
+	  left: -350px;
+	  bottom: -250px;
+  }
+
+.code5{
+	 font-size: 25px;
+	 font-family: 'Fira Coda', monospace;
+	 font-weight: 1000;
+	  position: relative;
+	  left: 350px;
+	  bottom: -250px;
 }
