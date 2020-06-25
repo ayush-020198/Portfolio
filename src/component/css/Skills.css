@@ -1,16 +1,20 @@
+.boxing {
+	padding: 200px;
+}
+
 .lead {
-	padding-top: 5%;
+	padding: 5%;
 	font-size: 1.25rem;
 	font-weight: 300;
 	font-family: 'Fira Coda', monospace;
 }
 
 .fonts {
-	font-color: white;
+	color: white;
 }
 
 .skillheading {
-	padding-top: 5%;
+	padding: 2%;
 }
 
 #skills img {

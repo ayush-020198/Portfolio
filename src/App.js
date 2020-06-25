@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './component/Header';
 import './component/nightMode/style.scss';
-import Slide from './component/slideShow/Slide';
+import Slideshow from './component/slideShow/Slide';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import About from './component/About';
 import Skills from './component/Skills';
@@ -14,9 +14,12 @@ class App extends Component {
 				<div>
 					<Route exact path="/" component={Header} />
 					<Route exact path="/" component={About} />
+					<hr />
 					<Route exact path="/" component={Skills} />
+					<hr />
+					<Route exact path="/" component={Slideshow} />
+					<hr />
 					<Route exact path="/" component={Contact} />
-					<Route exact path="/projects" component={Slide} />
 				</div>
 			</Router>
 		);

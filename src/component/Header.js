@@ -38,14 +38,14 @@ class Header extends Component {
 								</a>
 							</li>
 							<li className="nav-item active">
+							<a className="nav-link" href="#projects">
+									<div className="direct">Projects </div>
+							</a>
+							</li>
+							<li className="nav-item active">
 								<a className="nav-link" href="#contact">
 									<div className="direct">Contact </div>{' '}
 								</a>
-							</li>
-							<li className="nav-item active">
-								<Link to="/projects" className="nav-link">
-									<div className="direct">Projects </div>
-								</Link>
 							</li>
 							<UseNightMode />
 						</ul>
