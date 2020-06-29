@@ -2,6 +2,30 @@ import React, { Component } from 'react';
 import Logo from './helpers/brand.png';
 import UseNightMode from './nightMode/UseNightMode';
 import './css/Header.css';
+import $ from 'jquery';
+
+$(function() {
+	$('a').click(function() {
+	  var href = $(this).attr("href");
+	  $('html, body').animate({
+		scrollTop: $(href).offset().top
+	  }, 1000);
+	  return false;
+	});
+  });
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos < currentScrollPos) {
+	$('.navbar').addClass("navbar-hide");
+  } else {
+	$('.navbar').removeClass("navbar-hide");
+}
+  prevScrollpos = currentScrollPos;
+}
+
 class Header extends Component {
 	render() {
 		return (

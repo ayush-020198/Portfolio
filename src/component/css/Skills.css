@@ -1,5 +1,5 @@
 .boxing {
-	padding: 200px;
+	padding-left: 12px;
 }
 
 .lead {
@@ -14,7 +14,7 @@
 }
 
 .skillheading {
-	padding: 2%;
+	padding-bottom: 30px;
 }
 
 #skills img {

@@ -7,8 +7,10 @@ const paragraphs = [
 	'My name is...',
 	'Ayush Shrivastava',
 	'I love to code...',
-	'and like to hack code of others',
-	'I am a student of Indian Institute of Information Technology, Gwalior',
+	'and like to',
+	 'hack code of others',
+	'I am a student of', 
+	'Indian Institute of Information Technology, Gwalior'
 ];
 
 class Transition extends Component {

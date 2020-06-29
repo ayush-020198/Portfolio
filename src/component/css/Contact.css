@@ -1,6 +1,9 @@
 .footer {
 	border-top: 0.5px solid #a3a4a5;
 	margin-top: 5%;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #95d3ff;
 }
 
 .footer a {

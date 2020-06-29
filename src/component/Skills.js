@@ -18,7 +18,7 @@ const { Anime } = ReactAnime;
 
 function Skills() {
 	return (
-		<div id="skills" className="boxing">
+		<div id="skills" className="d-flex">
 			<Anime
 				initial={[
 					{
@@ -41,7 +41,7 @@ function Skills() {
 				]}
 			>
 				<div className="mx-lg-5 px-md-5 my-md-3">
-					<h2 id="Name" className="skillheading">
+					<h2 id="Name" className="skillheading boxing">
 						Technical Skills
 					</h2>
 					<p className="lead">
@@ -50,7 +50,7 @@ function Skills() {
 					</p>
 					<div
 						id="Box"
-						className="row d-flex justify-content-md-center "
+						className="row"
 					>
 						<div className="col-4 col-md-2">
 							<div className="skill node">

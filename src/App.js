@@ -16,7 +16,6 @@ class App extends Component {
 					<Skills />
 					<hr />
 					<Slideshow />
-					<hr />
 					<Contact />
 				</div>
 		);

@@ -7,7 +7,7 @@ import Twitter from './helpers/twitter.png';
 function Contact() {
 	return (
 		<div id="contact">
-			<nav className="navbar footer">
+			<nav className="footer">
 				<a href="https://www.linkedin.com/in/ayush-shrivastava-99b15b160">
 					<img
 						className="contactimage"
@@ -19,11 +19,7 @@ function Contact() {
 					<img className="contactimage" src={Github} alt="Github" />
 				</a>
 				<a href="https://twitter.com/ayush020198/">
-					<img
-						className="contactimage"
-						src={Twitter}
-						alt="Twitter"
-					/>
+					<img className="contactimage" src={Twitter} alt="Twitter" />
 				</a>
 			</nav>
 		</div>
