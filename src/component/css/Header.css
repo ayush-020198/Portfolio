@@ -11,7 +11,7 @@ li a {
 
 .navbar {
     opacity: 1;
-    transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
 }
 
 .navbar-hide {
