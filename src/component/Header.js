@@ -29,13 +29,14 @@ var currentScrollPos = window.pageYOffset;
 class Header extends Component {
 	render() {
 		return (
-			<div>
+			<div className="container">
 				<nav className="navbar navbar-expand-lg py-1 fixed-top navbar-light head">
 					<a href="/" className="navbar-brand">
 						<img className="brand" src={Logo} alt="brand" />
 					</a>
 					<button
 						className="navbar-toggler"
+						style={{position:'relative', right: '20px'}}
 						type="button"
 						data-toggle="collapse"
 						data-target="#navbarSupportedContent"
