@@ -8,17 +8,17 @@ function Contact() {
 	return (
 		<div id="contact">
 			<nav className="footer">
-				<a href="https://www.linkedin.com/in/ayush-shrivastava-99b15b160">
+				<a href="https://www.linkedin.com/in/ayush-shrivastava-99b15b160" target="_blank" rel="noopener noreferrer">
 					<img
 						className="contactimage"
 						src={Linkedin}
 						alt="LinkedIn"
 					/>
 				</a>
-				<a href="https://github.com/ayush-020198">
+				<a href="https://github.com/ayush-020198" target="_blank" rel="noopener noreferrer">
 					<img className="contactimage" src={Github} alt="Github" />
 				</a>
-				<a href="https://twitter.com/ayush020198/">
+				<a href="https://twitter.com/ayush020198/" target="_blank" rel="noopener noreferrer">
 					<img className="contactimage" src={Twitter} alt="Twitter" />
 				</a>
 			</nav>
