@@ -14,6 +14,14 @@ const Slideshow = () => {
               </div>
             </div>
           </li>
+          <li className="booking-card b7">
+            <div className="book-container">
+              <div className="content">
+              <button className="btn"><a href='https://agile-chamber-11888.herokuapp.com/' className="alink">Mailsify</a></button>
+              <button className="btn"><a href='https://github.com/ayush-020198/Mailsify' className="alink">Code</a></button>
+              </div>
+            </div>
+          </li>
           <li className="booking-card b2">
             <div className="book-container">
               <div className="content">
