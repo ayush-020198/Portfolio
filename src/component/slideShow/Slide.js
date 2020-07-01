@@ -37,6 +37,14 @@ const Slideshow = () => {
               </div>
             </div>
           </li>
+          <li className="booking-card b8">
+            <div className="book-container">
+              <div className="content">
+                <button className="btn"><a href='https://ayush-020198.github.io/github-react/' target="_blank" rel="noopener noreferrer" className="alink">Github-Searcher</a></button>
+                <button className="btn"><a href='https://github.com/ayush-020198/github-react' target="_blank" rel="noopener noreferrer" className="alink">Code</a></button>
+              </div>
+            </div>
+          </li>
           <li className="booking-card b4">
             <div className="book-container">
               <div className="content">
