@@ -31,7 +31,7 @@ class Header extends Component {
 		return (
 			<div className="container">
 				<nav className="navbar navbar-expand-lg py-1 fixed-top navbar-light head">
-					<a href="/" className="navbar-brand">
+					<a href="/portfolio" className="navbar-brand">
 						<img className="brand" src={Logo} alt="brand" />
 					</a>
 					<button
