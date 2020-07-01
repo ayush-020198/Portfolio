@@ -45,14 +45,6 @@ const Slideshow = () => {
               </div>
             </div>
           </li>
-          <li className="booking-card b4">
-            <div className="book-container">
-              <div className="content">
-                <button className="btn"><a href='https://ayush-020198.github.io/dice-game/' target="_blank" rel="noopener noreferrer" className="alink">Dice-Game</a></button>
-                <button className="btn"><a href='https://github.com/ayush-020198/dice-game' target="_blank" rel="noopener noreferrer" className="alink">Code</a></button>
-              </div>
-            </div>
-          </li>
           <li className="booking-card b5">
             <div className="book-container">
               <div className="content">
@@ -66,6 +58,14 @@ const Slideshow = () => {
               <div className="content">
                 <button className="btn"><a href='https://ayush-020198.github.io/DrumKit/' target="_blank" rel="noopener noreferrer" className="alink">Drum-Kit</a></button>
                 <button className="btn"><a href='https://github.com/ayush-020198/DrumKit' target="_blank" rel="noopener noreferrer" className="alink">Code</a></button>
+              </div>
+            </div>
+          </li>
+          <li className="booking-card b4">
+            <div className="book-container">
+              <div className="content">
+                <button className="btn"><a href='https://ayush-020198.github.io/dice-game/' target="_blank" rel="noopener noreferrer" className="alink">Dice-Game</a></button>
+                <button className="btn"><a href='https://github.com/ayush-020198/dice-game' target="_blank" rel="noopener noreferrer" className="alink">Code</a></button>
               </div>
             </div>
           </li>
