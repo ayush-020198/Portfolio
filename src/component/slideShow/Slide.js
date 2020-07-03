@@ -45,6 +45,14 @@ const Slideshow = () => {
               </div>
             </div>
           </li>
+          <li className="booking-card b9">
+            <div className="book-container">
+              <div className="content">
+                <button className="btn"><a href='https://ayush-020198.github.io/simon-game/' target="_blank" rel="noopener noreferrer" className="alink">Simon-Game</a></button>
+                <button className="btn"><a href='https://github.com/ayush-020198/simon-game' target="_blank" rel="noopener noreferrer" className="alink">Code</a></button>
+              </div>
+            </div>
+          </li>
           <li className="booking-card b5">
             <div className="book-container">
               <div className="content">
