@@ -7,7 +7,7 @@ import Express from './helpers/express.jpg';
 import Reac from './helpers/react.jpg';
 import Git from './helpers/github.jpg';
 import Docker from './helpers/docker.jpg';
-import C from './helpers/c.jpg';
+import JQuery from './helpers/jquery.jpg';
 import Bash from './helpers/bash.jpg';
 import BootStrap from './helpers/bootstrap.jpg';
 import FireBase from './helpers/firebase.jpg';
@@ -96,8 +96,8 @@ function Skills() {
 
 						<div className="col-4 col-md-2">
 							<div className="skill">
-								<img className="image" src={C} alt="" />
-								<p className=" tag lead">C/C++</p>
+								<img className="image" src={JQuery} alt="" />
+								<p className=" tag lead">jQuery</p>
 							</div>
 						</div>
 
