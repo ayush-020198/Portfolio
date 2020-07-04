@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a5d9b1e8.chunk.css",
-    "main.js": "/Portfolio/static/js/main.0cff676f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.0cff676f.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.d9fde25d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d9fde25d.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.db605a1d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.db605a1d.js.map",
     "static/css/2.d811125f.chunk.css": "/Portfolio/static/css/2.d811125f.chunk.css",
     "static/js/2.add77391.chunk.js": "/Portfolio/static/js/2.add77391.chunk.js",
     "static/js/2.add77391.chunk.js.map": "/Portfolio/static/js/2.add77391.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.fd5b537101c665d280509e715c01501c.js": "/Portfolio/precache-manifest.fd5b537101c665d280509e715c01501c.js",
+    "precache-manifest.aae2bace93f33afa9e76bb75aa610e1a.js": "/Portfolio/precache-manifest.aae2bace93f33afa9e76bb75aa610e1a.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.d811125f.chunk.css.map": "/Portfolio/static/css/2.d811125f.chunk.css.map",
     "static/css/main.a5d9b1e8.chunk.css.map": "/Portfolio/static/css/main.a5d9b1e8.chunk.css.map",
@@ -18,12 +18,12 @@
     "static/media/bash.jpg": "/Portfolio/static/media/bash.2c93ed7e.jpg",
     "static/media/bootstrap.jpg": "/Portfolio/static/media/bootstrap.6a0eabab.jpg",
     "static/media/brand.png": "/Portfolio/static/media/brand.c6a7b96e.png",
-    "static/media/c.jpg": "/Portfolio/static/media/c.2a1d91be.jpg",
     "static/media/docker.jpg": "/Portfolio/static/media/docker.d8e88fee.jpg",
     "static/media/express.jpg": "/Portfolio/static/media/express.e9b0a5d3.jpg",
     "static/media/firebase.jpg": "/Portfolio/static/media/firebase.c5f7beb9.jpg",
     "static/media/git.png": "/Portfolio/static/media/git.70104e79.png",
     "static/media/github.jpg": "/Portfolio/static/media/github.1f9fa821.jpg",
+    "static/media/jquery.jpg": "/Portfolio/static/media/jquery.91055228.jpg",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.97168189.png",
     "static/media/mongo.jpg": "/Portfolio/static/media/mongo.85906adb.jpg",
     "static/media/node.jpg": "/Portfolio/static/media/node.dbae1282.jpg",
@@ -37,6 +37,6 @@
     "static/css/2.d811125f.chunk.css",
     "static/js/2.add77391.chunk.js",
     "static/css/main.a5d9b1e8.chunk.css",
-    "static/js/main.0cff676f.chunk.js"
+    "static/js/main.d9fde25d.chunk.js"
   ]
 }
