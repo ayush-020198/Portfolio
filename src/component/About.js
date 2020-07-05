@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/About.css';
-import Logo from './helpers/brand.png';
+import Logo from './helpers/me.jpg';
 import Transition from './Transition';
 function About() {
 	return (
