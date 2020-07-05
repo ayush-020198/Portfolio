@@ -17,7 +17,7 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div id="contact">
+      <div id="contact" style={{paddingTop: '3%'}}>
         <h1 style={{margin: '3% 0% 4% 5%'}}>Contact Me</h1>
       <div className="formdis" align="center">
       <form
@@ -37,7 +37,7 @@ export default class MyForm extends React.Component {
             </textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
           </fieldset>
-        {status === "SUCCESS" ? <p style={{marginBottom: '3em'}} className="contact100-form-btn formbtn">Thanks for the Submission!</p> : 
+        {status === "SUCCESS" ? <p style={{marginBottom: '3em'}} className="contact100-form-btn formbtn">Thanks for the Submission :)</p> : 
         <div className="container-contact100-form-btn">
         <button class="contact100-form-btn formbtn">
             <span>
