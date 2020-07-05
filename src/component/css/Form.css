@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../poppins/Poppins-SemiBold.ttf'); 
+  }
+
+.fs-frm-inputs {
+    display: grid;
+    justify-content: center;
+    font-size: 2em;
+    font-family: Poppins-Medium;
+}
+
+.formcard {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.formdis {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.inputform{
+    height: 2%;
+    padding: 2%;
+    width: 90%;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+.container-contact100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2em;
+    margin-top: 25px;
+  }
+  
+  .contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 2em;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+    box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -moz-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -o-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  }
+  
+  .contact100-form-btn i {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .contact100-form-btn:hover {
+    background-color: #333333;
+    box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -moz-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -o-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+  }
+  
+  .contact100-form-btn:hover i {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+.formbtn {
+	outline: none !important;
+	border: none;
+    background: transparent;
+    background-color: #ff4b5a;
+
+}
+
+.formbtn:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+.message{
+    width: 100%;
+}

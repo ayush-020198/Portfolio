@@ -13,6 +13,9 @@ import BootStrap from './helpers/bootstrap.jpg';
 import FireBase from './helpers/firebase.jpg';
 import Postgres from './helpers/postgres.jpg';
 import Redux from './helpers/redux.jpg';
+import Gphq from './helpers/graphql.jpg';
+import Npm from './helpers/npm.jpg';
+import Yarn from './helpers/yarn.jpg';
 
 const { Anime } = ReactAnime;
 
@@ -68,6 +71,13 @@ function Skills() {
 
 						<div className="col-4 col-md-2">
 							<div className="skill">
+								<img className="image" src={Gphq} alt="" />
+								<p className=" tag lead">GraphQL</p>
+							</div>
+						</div>
+
+						<div className="col-4 col-md-2">
+							<div className="skill">
 								<img className="image" src={Express} alt="" />
 								<p className=" tag lead">ExpressJS</p>
 							</div>
@@ -110,6 +120,34 @@ function Skills() {
 
 						<div className="col-4 col-md-2">
 							<div className="skill">
+								<img className="image" src={Postgres} alt="" />
+								<p className=" tag lead">Postgres</p>
+							</div>
+						</div>
+						
+						<div className="col-4 col-md-2">
+							<div className="skill">
+								<img className="image" src={Npm} alt="" />
+								<p className=" tag lead">NPM</p>
+							</div>
+						</div>
+						
+						<div className="col-4 col-md-2">
+							<div className="skill">
+								<img className="image" src={Yarn} alt="" />
+								<p className=" tag lead">Yarn</p>
+							</div>
+						</div>
+						
+						<div className="col-4 col-md-2">
+							<div className="skill">
+								<img className="image" src={FireBase} alt="" />
+								<p className=" tag lead">FireBase</p>
+							</div>
+						</div>
+						
+						<div className="col-4 col-md-2">
+							<div className="skill">
 								<img className="image" src={BootStrap} alt="" />
 								<p className=" tag lead">BootStrap4</p>
 							</div>
@@ -122,18 +160,6 @@ function Skills() {
 							</div>
 						</div>
 
-						<div className="col-4 col-md-2">
-							<div className="skill">
-								<img className="image" src={FireBase} alt="" />
-								<p className=" tag lead">FireBase</p>
-							</div>
-						</div>
-						<div className="col-4 col-md-2">
-							<div className="skill">
-								<img className="image" src={Postgres} alt="" />
-								<p className=" tag lead">Postgres</p>
-							</div>
-						</div>
 					</div>
 				</div>
 			</Anime>
