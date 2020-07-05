@@ -17,7 +17,7 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div>
+      <div id="contact">
         <h1 style={{margin: '3% 0% 4% 5%'}}>Contact Me</h1>
       <div className="formdis" align="center">
       <form
@@ -52,7 +52,7 @@ export default class MyForm extends React.Component {
       </form>
       </div>
       <hr />
-      <div align="center" style={{padding: '10%'}}>
+      <div id="more" align="center" style={{padding: '10%'}}>
       <h2>Liked my Portfolio?</h2>
       <h3>You can checkout its source code here :)</h3>
       <a className="contact100-form-btn formbtn" style={{width: '2%'}} href="https://github.com/ayush-020198/Portfolio">Click Me</a>

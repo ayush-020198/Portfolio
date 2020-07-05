@@ -67,8 +67,18 @@ class Header extends Component {
 							</a>
 							</li>
 							<li className="nav-item active">
+								<a className="nav-link" href="#languages">
+									<div className="direct">Languages </div>{' '}
+								</a>
+							</li>
+							<li className="nav-item active">
 								<a className="nav-link" href="#contact">
 									<div className="direct">Contact </div>{' '}
+								</a>
+							</li>
+							<li className="nav-item active">
+								<a className="nav-link" href="#more">
+									<div className="direct">More </div>{' '}
 								</a>
 							</li>
 							<UseNightMode />

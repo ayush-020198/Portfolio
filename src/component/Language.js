@@ -2,7 +2,7 @@ import React from 'react';
 
 const Language = () => {
     return(
-        <div style={{marginBottom: '5%'}}>
+        <div id="languages" style={{paddingTop:'2%', marginBottom: '5%'}}>
             <h1 style={{margin: '3% 0% 4% 5%'}}>Languages</h1>
             <div style={{marginLeft: '10%'}}>
             <h2>Javascript</h2>
