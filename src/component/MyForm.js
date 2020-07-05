@@ -54,7 +54,7 @@ export default class MyForm extends React.Component {
       <hr />
       <div align="center" style={{padding: '10%'}}>
       <h2>Liked my Portfolio?</h2>
-      <h3>You can checkout its source code from here :)</h3>
+      <h3>You can checkout its source code here :)</h3>
       <a className="contact100-form-btn formbtn" style={{width: '2%'}} href="https://github.com/ayush-020198/Portfolio">Click Me</a>
       </div>
       <div align="center">
