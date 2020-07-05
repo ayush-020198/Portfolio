@@ -76,7 +76,7 @@ const Slideshow = () => {
           <li className="booking-card b8">
             <div className="book-container">
               <div className="content row center">
-                <button className="btn"><a href='https://ayush-020198.github.io/github-react/' target="_blank" rel="noopener noreferrer" className="alink">Github-Searcher</a></button>
+                <button className="btn"><a href='https://ayush-020198.github.io/github-react/' target="_blank" rel="noopener noreferrer" className="alink">Git-Searcher</a></button>
                 <button className="btn"><a href='https://github.com/ayush-020198/github-react' target="_blank" rel="noopener noreferrer" className="alink">Code</a></button>
                 <div className="informations-container image-grid-container info-and-date-container">
                     <img className="stack" src={Reactjs} alt="" />
