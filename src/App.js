@@ -4,7 +4,6 @@ import './component/nightMode/style.scss';
 import Slideshow from './component/slideShow/Slide';
 import About from './component/About';
 import Skills from './component/Skills';
-import Language from './component/Language';
 import Contact from './component/Contact';
 import MyForm from './component/MyForm';
 
@@ -18,8 +17,6 @@ class App extends Component {
 					<Skills />
 					<hr />
 					<Slideshow />
-					<hr />
-					<Language />
 					<hr />
 					<MyForm />
 					<Contact />

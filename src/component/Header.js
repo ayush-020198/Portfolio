@@ -5,7 +5,7 @@ import './css/Header.css';
 import $ from 'jquery';
 
 $(function() {
-	$('a').click(function() {
+	$('a').on(function() {
 	  var href = $(this).attr("href");
 	  $('html, body').animate({
 		scrollTop: $(href).offset().top
@@ -65,11 +65,6 @@ class Header extends Component {
 							<a className="nav-link" href="#projects">
 									<div className="direct">Projects </div>
 							</a>
-							</li>
-							<li className="nav-item active">
-								<a className="nav-link" href="#languages">
-									<div className="direct">Languages </div>{' '}
-								</a>
 							</li>
 							<li className="nav-item active">
 								<a className="nav-link" href="#contact">

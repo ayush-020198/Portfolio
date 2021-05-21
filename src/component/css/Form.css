@@ -37,7 +37,9 @@
 }
 
 .inputform{
-    height: 2%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
     padding: 2%;
     width: 90%;
     margin-bottom: 1em;

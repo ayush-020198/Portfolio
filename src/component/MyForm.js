@@ -18,6 +18,10 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <div id="contact" style={{paddingTop: '3%'}}>
+        <div align="center">
+        <a href="https://drive.google.com/file/d/1cRKHjlH7upqUvBKTzCFyA0flfQSspZ6G/view" className="contact100-form-btn formbtn" style={{width: '25%'}}>My Resume</a>
+        </div>
+        <hr />
         <h1 style={{margin: '3% 0% 4% 5%'}}>Contact Me</h1>
       <div className="formdis" align="center">
       <form
@@ -29,11 +33,11 @@ export default class MyForm extends React.Component {
       <div className="formcard">
           <fieldset className="fs-frm-inputs">
             <label htmlFor="full-name" style={{marginTop: '0.5em'}}>Full Name</label>
-            <input type="text" name="name" className="inputform name" placeholder="" required="" />
+            <input type="text" style={{marginLeft: '1em'}} name="name" className="inputform name" placeholder="" required="" />
             <label htmlFor="email-address">Email Address</label>
-            <input type="email" name="_replyto" className="inputform mail" placeholder="" required="" />
+            <input type="email" style={{marginLeft: '1em'}} name="_replyto" className="inputform mail" placeholder="" required="" />
             <label htmlFor="message">Message</label>
-            <textarea rows="5" name="message" className="inputform message" placeholder="" required="">
+            <textarea rows="5" style={{height: '10em'}} name="message" className="inputform message" placeholder="" required="">
             </textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
           </fieldset>

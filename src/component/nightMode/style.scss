@@ -13,6 +13,15 @@ body.light-mode {
 }
 
 body.dark-mode {
+  input[type='checkbox'].dmcheck {  
+    & + label {
+      position: relative;
+      left: -10%;
+      top: 8%;
+    }
+  }
+
+
   background-color: #10171d;
   color: #dfdfdf;
 
@@ -84,7 +93,7 @@ body.dark-mode {
   padding: 0 4px;
   display: flex;
   align-items: center;
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 input[type='checkbox'].dmcheck {
@@ -109,14 +118,15 @@ input[type='checkbox'].dmcheck {
   }
 
   & + label {
-    display: inline-block;
+    display: flexbox;
     width: 18px;
     height: 18px;
     border-radius: 50%;
     transition: all 0.3s ease;
     cursor: pointer;
-    position: absolute;
-    left: 2px;
+    position: relative;
+    right: 70%;
+    top: 8%;
     background: #fff;
     opacity: 0.9;
     background-color: #f6f6f6;
